@@ -1,0 +1,15 @@
+{
+    "name": "parcel-typescript-example",
+    "version": "0.1.0",
+    "description": "TypeScript app with parcel bundler.",
+    "scripts": {
+      "serve": "parcel serve index.html",
+      "build": "cross-env NODE_ENV=production parcel build src/index.html --public-url .",
+      "watch": "parcel watch index.html",
+    },
+    "devDependencies": {
+      "cross-env": "5.2.0",
+      "parcel-bundler": "1.9.7",
+      "typescript": "2.9.2"
+    }
+}
